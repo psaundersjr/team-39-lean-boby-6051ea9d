@@ -13,7 +13,7 @@ class StopGameLibrary:
         assert actual == expected, f"Expected: {expected}, Actual: {actual}"
 
     def Y_coordinate_should_be(self, expected):
-        actual = self.controller.status.current_position[0]
+        actual = self.controller.status.current_position[1]
         assert actual == expected, f"Expected: {expected}, Actual: {actual}"
 
     def move_count_should_be(self, expected):
