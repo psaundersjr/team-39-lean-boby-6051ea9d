@@ -3,18 +3,22 @@ from levelup.controller import Direction
 class Map:
     numPositions = 100
 
-    def getPositions ():
+    def getPositions (self):
         pass
+    #TODO
 
-    def calculateposition(startingPosition: Position, direction: Direction):
+    def calculateposition(self, startingPosition: Position, direction: Direction):
        pass
+    #TODO
 
         
-    def isPositionValid(positionCoordinateX,positionCoordinateY):
+    def isPositionValid(self, positionCoordinateX,positionCoordinateY):
         pass
+    #TODO
 
-    def getTotalPositions ():
-        pass
+    def getTotalPositions (self):
+        return self.numPositions
+    
 
 
 
