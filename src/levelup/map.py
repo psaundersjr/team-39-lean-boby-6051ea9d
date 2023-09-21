@@ -1,13 +1,14 @@
+from levelup.position import position
 class Map:
     numPositions = 100
 
     def getPositions ():
         pass
 
-    def calculatePosition(Position startingPosition, DIRECTION direction) ():
+    def calculateposition(Position, startingPosition, DIRECTION, direction) :
         pass
     
-    def isPositionValid(Point positionCoordinates) ():
+    def isPositionValid(Point, positionCoordinates):
         pass
 
     def getTotalPositions ():
