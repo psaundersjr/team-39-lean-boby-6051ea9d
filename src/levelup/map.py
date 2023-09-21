@@ -5,10 +5,10 @@ class Map:
     def getPositions ():
         pass
 
-    def calculateposition(startingPosition:Position, direction:Direction):
-        pass
+   # def calculateposition(startingPosition:Position, direction:Direction):
+   #     pass
     
-    def isPositionValid(positionCoordinatesX,positionCoordinateY):
+    def isPositionValid(positionCoordinateX,positionCoordinateY):
         pass
 
     def getTotalPositions ():
