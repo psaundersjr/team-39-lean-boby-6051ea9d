@@ -10,11 +10,12 @@ class Map:
     def calculateposition(self, startingPosition: Position, direction: Direction):
        pass
     #TODO
-
         
     def isPositionValid(self, positionCoordinateX,positionCoordinateY):
-        pass
-    #TODO
+        if (positionCoordinateX > 9) or (positionCoordinateY > 9):
+            return False
+        return True
+    
 
     def getTotalPositions (self):
         return self.numPositions
