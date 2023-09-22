@@ -3,7 +3,8 @@ from dataclasses import dataclass
 from enum import Enum
 
 
-DEFAULT_CHARACTER_NAME = "Character"
+# global DEFAULT_CHARACTER_NAME 
+DEFAULT_CHARACTER_NAME = "Character_LeanBoby"
 
 #TODO: ADD THINGS YOU NEED FOR STATUS
 @dataclass
